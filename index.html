@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;1,700&display=swap" rel="stylesheet">
+    <title>University Website for Tafinta Tech Limited</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/TECHSCHOOL.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Worlds's Biggest University</h1>
+        <p>Education is a key value adding standard to young Adults and prepares young ones for the future <br> at our University you get to experience and not just talked into how this core values are being implemented in the outside world.</p>
+        <a href="" class="visit-btn">Visit us to know more</a>
+    </div>
+    </section>
+
+<!------------ Course --------->
+
+    <section class="course">
+        <h1>Courses we Offer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, quam sapiente molestiae distinctio dolore tenetur assumenda quidem, accusamus voluptates cum magnam ut nulla est pariatur ratione nostrum itaque, quae dolorum.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis necessitatibus vel itaque, odio suscipit mollitia perspiciatis nobis officiis quae laboriosam quasi.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis necessitatibus vel itaque, odio suscipit mollitia perspiciatis nobis officiis quae laboriosam quasi.</p>
+            </div> 
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis necessitatibus vel itaque, odio suscipit mollitia perspiciatis nobis officiis quae laboriosam quasi.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+ <!---------Campus--------->
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Enjoy the best of learning in our most convinient Environments</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/camp.jpg" alt="">
+                <div class="layer">
+                    <h3>KOREA</h3>
+                   
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/sc.jpg" alt="">
+                <div class="layer">
+                    <h3>NIGERIA</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/nightschool.jpg" alt="">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+<!----------Facilities------------->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem elit. atem. Earum eligendi quisquam dolores, quod aliquid est sunt iste corrupti?</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/Library.jpg" >
+            <h3>Our Library</h3>
+            <p>Knowledge they say is Key, we have one of the best libraries in the world</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/Emergency.jpg" >
+            <h3>Our Health-Facilities</h3>
+            <p>Administering the best care to its student with the best of medical sciences</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/Tech.jpg" >
+            <h3>Our TECH World</h3>
+            <p>For ever Changing environment, we train tech Personnel</p>
+        </div>
+    </div>
+</section>
+
+<!----------Testimonials----------->
+<section class="Testimonials">
+    <h1>Our Testimonials</h1>
+    <p>Lorem elit. atem. Earum eligendi quisquam dolores, quod aliquid est sunt iste corrupti?</p>
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="images/User (3).jpg" alt="">
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur aeniti delectus quamctus quam odio quiactus quam odio quia odio quia dicta dolores nesciunt, illo repellendus.</p>
+            <h3>Barkley David</h3>
+        </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="images/User (1).jpg" >
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur aenitictus quam odio quiactus quam odio quia delectus quam odio quia dicta dolores nesciunt, illo repellendus.</p>
+            <h3>Christiana Bulus</h3>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!-------------JavaScript---------------->
+<script>
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right ="-200px"
+    }
+</script>
+
+</body>
+</html>
